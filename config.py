@@ -20,7 +20,7 @@ APP_ID = int(os.environ.get("APP_ID", "10064016"))
 API_HASH = os.environ.get("API_HASH", "b9ca5d9a6c625a890af28db4adf50cf4")
 
 # ID Channel Database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001856311191"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001842206802"))
 
 # NAMA OWNER
 OWNER = os.environ.get("OWNER", "Dhilnihnge")
@@ -30,13 +30,13 @@ HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
 HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "postgres://ntlaaxbs:Pdxs3VytSc2g3BCrKKdDebo8rWzs88sP@flora.db.elephantsql.com/ntlaaxbs")
+DB_URI = os.environ.get("DATABASE_URL", "postgres://mjhlbnrl:PSnk_feev34_SsWXZtzvFdyELub0LcH1@flora.db.elephantsql.com/mjhlbnrl")
 
 PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "False"))
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_1 = int(os.environ.get("FORCE_SUB_1", "-1001850194872"))
-FORCE_SUB_2 = int(os.environ.get("FORCE_SUB_2", "-1001871855830"))
+FORCE_SUB_1 = int(os.environ.get("FORCE_SUB_1", "-1001892658917"))
+FORCE_SUB_2 = int(os.environ.get("FORCE_SUB_2", "-1001850194872"))
 FORCE_SUB_3 = int(os.environ.get("FORCE_SUB_3", "0"))
 FORCE_SUB_4 = int(os.environ.get("FORCE_SUB_4", "0"))
 FORCE_SUB_5 = int(os.environ.get("FORCE_SUB_5", "0"))
